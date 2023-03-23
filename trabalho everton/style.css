@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+.style1 {
+    background-color: rgb(37, 37, 37);
+    color: rgb(156, 156, 156);
+}
+
+.style2 {
+    background-color: #EEEEEE;
+}
+
+.style3 {
+    background-color: #428BCA;
+    color: white;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.table{
+    border: 1px solid black;
+  border-collapse: collapse
+}
